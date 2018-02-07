@@ -7,13 +7,18 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Melissa Baldwin</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+          <p className="summary">I am a front-end developer with a focus on building robust applications!</p>
+          
       </div>
+
+      function ListofSkills(skill){
+          const skills = ['Jquery,React,APIs,Javascript,JSON,AJAX'];
+          const listSkills = skills.map((skill) =>
+            <li>{skill}</li>
+          )};
     );
   }
 }
