@@ -1,5 +1,7 @@
 body {
-  background-color: #6996AB;
+  background: url("/images/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -7,7 +9,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-
+  color: white;
 }
 
   main {
@@ -20,3 +22,6 @@ body {
     width: 100%;
 }
 /*sticky footer*/
+  .brand-logo {
+    margin-left: 10px;
+}

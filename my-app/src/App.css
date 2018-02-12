@@ -9,7 +9,7 @@
 }*/
 
 .App-header {
-  background-color: #222;
+  background-color: transparent;
   height: 150px;
   padding: 20px;
   color: white;
@@ -23,20 +23,24 @@
   font-size: large;
 }
 
-/*.summary {
-  padding: 10px;
-}*/
+.summary {
+  padding-bottom: 30px;
+}
 
 .workEthic{
+  margin-left: 50px;
   margin-right: 500px;
   float: left;
+
 }
 
 .teamWork{
   margin-left: 500px;
+  margin-right: 50px;
   float: right;
 }
 .loyalty{
+  margin-left: 50px;
   margin-right: 500px;
   float: left;
 }
