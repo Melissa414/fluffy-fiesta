@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: scroll;
 }
 
 /*.App-logo {
@@ -22,8 +23,25 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
+/*.summary {
+  padding: 10px;
+}*/
+
+.workEthic{
+  margin-right: 500px;
+  float: left;
+}
+
+.teamWork{
+  margin-left: 500px;
+  float: right;
+}
+.loyalty{
+  margin-right: 500px;
+  float: left;
+}
+/*@keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+}*/
 
