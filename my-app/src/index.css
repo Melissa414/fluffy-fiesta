@@ -1,10 +1,12 @@
 body {
-  background: url("/images/background1.jpg");
+  background: url("/images/background3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
 /*sticky footer*/
   display: flex;
   min-height: 100vh;
@@ -23,5 +25,8 @@ body {
 }
 /*sticky footer*/
   .brand-logo {
-    margin-left: 10px;
+    margin-left: 20px;
 }
+  code{
+    font-size: 40px;
+  }
