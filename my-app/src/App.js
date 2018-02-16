@@ -11,7 +11,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title"><code>Hello World!</code></h1>
         </header>
-  
+
           <h5 className="summary">I am a front-end developer with a focus on building robust applications.</h5>
           <p className= "workEthic">I feel having a strong work ethic is part of an individual's personal values. It's based in a belief in the value of work for its own sake and not just for its rewards. 
           Being honest, having a positive attitude, taking initiative, caring about coworkers, doing more than expected, being reliable and responsible, learning new skills and being a team player are traits I strive to achieve.</p>
@@ -22,25 +22,23 @@ class App extends Component {
   }
 }
 
-
-class TypedReact extends React.Component {
+class TypedReactDemo extends React.Component {
   componentDidMount() {
+
     const { strings } = this.props;
     const options = {
       strings: strings,
       typeSpeed: 50,
       backSpeed: 50
     };
-    // var Type = TypedReact;
-    // this.Type = new Type(this.el, options);
+    this.typed = new Typed(this.el, options);
   }
 
   componentWillUnmount() {
-
+    
     this.typed.destroy();
   }
-
-  render() {
+render() {
     return (
       <div className="wrap">
         <div className="type-wrap">
@@ -52,12 +50,12 @@ class TypedReact extends React.Component {
       </div>
     );
   }
-}
+  }
 
 ReactDOM.render(
-  <TypedReact
+  <TypedReactDemo
     strings={[
-      'Hello World!'
+      'Hello World!',
     ]}
   />,
   document.getElementById('react-root')

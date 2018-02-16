@@ -6,6 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 // import Typed from 'typed.js';
 
 
+
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 
