@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title"><code>Hello World!</code></h1>
+
         </header>
 
           <h5 className="summary">I am a front-end developer with a focus on building robust applications.</h5>
@@ -28,14 +28,15 @@ class TypedReactDemo extends React.Component {
     const { strings } = this.props;
     const options = {
       strings: strings,
-      typeSpeed: 50,
-      backSpeed: 50
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop:true,
     };
     this.typed = new Typed(this.el, options);
   }
 
   componentWillUnmount() {
-    
+
     this.typed.destroy();
   }
 render() {
@@ -43,7 +44,7 @@ render() {
       <div className="wrap">
         <div className="type-wrap">
           <span
-            style={{ whiteSpace: 'pre' }}
+            style={{ whiteSpace: "pre" }}
             ref={(el) => { this.el = el; }}
           />
         </div>
@@ -55,7 +56,7 @@ render() {
 ReactDOM.render(
   <TypedReactDemo
     strings={[
-      'Hello World!',
+      ' Hello World! ',
     ]}
   />,
   document.getElementById('react-root')

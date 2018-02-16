@@ -29,4 +29,17 @@ body {
 }
   code{
     font-size: 40px;
-  }
+}
+
+  .type-wrap{
+    font-size: 40px;
+    font-family: 'Montserrat','Raleway', sans-serif;
+    position: absolute;
+    top:0;
+    padding-top: 80px;
+    padding-left:38%;
+}
+
+  .type-cursor{
+    font-size: 40px;
+}
