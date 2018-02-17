@@ -18,6 +18,12 @@ body {
     flex: 1 0 auto;
 }
 
+  ul {
+    float: right;
+    z-index: 1;
+    top:10px;
+  }
+
   footer {
     bottom: 0;
     left: 0;
@@ -43,3 +49,4 @@ body {
   .type-cursor{
     font-size: 40px;
 }
+
