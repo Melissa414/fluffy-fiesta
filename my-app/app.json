@@ -1,7 +1,6 @@
 {
-  "buildpacks": [
-    {
-      "url": "https://github.com/Melissa414/fluffy-fiesta"
-    }
-  ]
+  "root":"dist/",
+  "routes": {
+    "/**":"index.html"
+  }
 }
