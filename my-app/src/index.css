@@ -1,0 +1,52 @@
+body {
+  background: url("/images/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+/*sticky footer*/
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: white;
+}
+
+  main {
+    flex: 1 0 auto;
+}
+
+  ul {
+    float: right;
+    z-index: 1;
+    top:10px;
+  }
+
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/*sticky footer*/
+  .brand-logo {
+    margin-left: 20px;
+}
+  code{
+    font-size: 40px;
+}
+
+  .type-wrap{
+    font-size: 50px;
+    font-family: 'Montserrat','Raleway', sans-serif;
+    position: absolute;
+    top:0;
+    padding-top: 80px;
+    padding-left:40%;
+}
+
+  .type-cursor{
+    font-size: 40px;
+}
+
