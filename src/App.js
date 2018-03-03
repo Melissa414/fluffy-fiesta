@@ -18,8 +18,8 @@ class App extends Component {
           <p className= "teamWork">The skills I have acquired from successful group work has helped me for future careers. Working effectively, planning for the different stages of group activity. Time spent discussing how your group will work together will be invaluable in helping to create a constructive working team. The effective organization, communication and trouble shooting strategies described in this guide will help your group work productively to complete its task.</p>
           <p className="loyalty">Working for my current employer has shown me great sense of longevity, dedication, and commitment. I have continued my education, by going to Rutgers Coding Bootcamp and through constant self-teaching.</p>
       </div>
-    );
-  },
+    )
+  }
 }
 
 class TypedReactDemo extends React.Component {
