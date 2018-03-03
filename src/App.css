@@ -3,14 +3,9 @@
   overflow: scroll;
 }
 
-/*.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}*/
-
 .App-header {
   background-color: transparent;
-  height: 150px;
+  height: 100px;
   padding: 20px;
   color: white;
 }
@@ -28,24 +23,20 @@
 }
 
 .workEthic{
-  margin-left: 50px;
-  margin-right: 500px;
-  float: left;
-
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .teamWork{
-  margin-left: 500px;
-  margin-right: 50px;
-  float: right;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .loyalty{
-  margin-left: 50px;
-  margin-right: 500px;
-  float: left;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
-/*@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}*/
+
 

@@ -11,7 +11,7 @@ class App extends Component {
         <header className="App-header">
 
         </header>
-
+          <h4 className="name">My name is Melissa Baldwin.</h4>
           <h5 className="summary">I am a front-end developer with a focus on building robust applications.</h5>
           <p className= "workEthic">I feel having a strong work ethic is part of an individual's personal values. It's based in a belief in the value of work for its own sake and not just for its rewards. 
           Being honest, having a positive attitude, taking initiative, caring about coworkers, doing more than expected, being reliable and responsible, learning new skills and being a team player are traits I strive to achieve.</p>
