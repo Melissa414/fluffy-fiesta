@@ -6,7 +6,7 @@
     "bootstrap": "^4.0.0",
     "express": "^4.16.2",
     "materialize-css": "^0.100.2",
-    "node": "^9.6.1",
+    "node": "^8.1.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0",
