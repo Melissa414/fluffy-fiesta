@@ -19,7 +19,7 @@ class App extends Component {
           <p className="loyalty">Working for my current employer has shown me great sense of longevity, dedication, and commitment. I have continued my education, by going to Rutgers Coding Bootcamp and through constant self-teaching.</p>
       </div>
     );
-  }
+  },
 }
 
 class TypedReactDemo extends React.Component {
