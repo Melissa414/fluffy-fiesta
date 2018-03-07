@@ -56,7 +56,8 @@ render() {
 ReactDOM.render(
   <TypedReactDemo
     strings={[
-      " Hello World! ",
+      " Welcome",
+      "to my world ..",
     ]}
   />,
   document.getElementById('react-root')
